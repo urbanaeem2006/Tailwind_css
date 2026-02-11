@@ -442,3 +442,11 @@
     }
   }
 }
+
+.gradient-hover-outer {
+
+  @apply p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200
+}
+.gradient-hover-inner {
+  @apply group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 
+}

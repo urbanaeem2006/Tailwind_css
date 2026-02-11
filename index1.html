@@ -13,12 +13,14 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="src/output.css"> 
     
     <title>Document</title>
 </head>
-<body>
-    
+<body class="overflow-x-hidden">
+    <!-- Navbar -->
     <nav class="p-3 flex bg-white justify-between items-center">
         <a href="#" id="brand" class="flex gap-2 items-center">
             <img class="object-cover max-w-12 max-h-12"src="c:\Users\lenovo\Downloads\download (3).jfif" alt="">
@@ -40,5 +42,505 @@
         </button>
         
     </nav>
+
+    <!-- Main -->
+     <main>
+        <!-- Hero section -->
+         <div id="hero" class="min-h-screen bg-gradient-to-b from-purple-50 via-orange-50 to-transparent">
+            <div id="hero-container" class="max-w-4xl mx-auto px-4 pt-6 pb-32 flex flex-col">
+                <div id="version-text" class="flex items-center my-6 gap-2 border border-yellow-300 bg-yellow-50 rounded-lg px-3 py-1 w-fit shadow-md hover:shadow-lg hover:-translate-y-1 transition group">
+                    <div class="w-2 h-2 bg-yellow-400 rounded-full border border-yellow-600"></div>
+                        <p class="font-bold text-yellow-600"> v0.21.1:<span class="text-yellow-800"> Find-in-page bug fixes</span></p>
+                        <i class="fa-solid fa-arrow-right-long text-yellow-600 group-hover:translate-x-1 transition duration-300" ></i>
+                     </div>
+                     <div id="hero-features" class="hidden sm:flex gap-8 my-6">
+                        <div class="flex items-center gap-2 text-gray-500">
+                            <i class="fa-solid fa-house text-small"></i>
+                            <p>Code Optional</p>
+
+                        </div>
+                        <div class="flex items-center gap-2 text-gray-500">
+                        <i class="fa-regular fa-window-maximize text-small"></i>
+                            <p>Window Mac</p>
+
+                        </div>
+                        <div class="flex items-center gap-2 text-gray-500">
+                              <i class="fa-regular fa-window-maximize text-small"></i>
+                            <p>Drop Builders</p>
+
+                        </div>
+                     </div>
+                <h1 class=" text-4xl font-sm leading-snug mt-4 sm:text-7xl " >Web app to desktop add in minutes.</h1>
+                <p class="text-xl mt-5 sm:text-2xl sm:mt-8 text-gray-800">Take Your Web app codebase and transform it into 
+                 a cross platform app with native functionality</p>
+                 <div id="buttons-container" class="mt-12 flex gap-4 flex-col sm:flex items-center">
+                    <button class=" px-8 py-3 font-semibold rounded-lg bg-blue-700 shadow-sm hover:bg-opacity-90 w-fit max-w-100 ">Download Now</button>
+                    <button class="px-8 py-3 font-semibold rounded-lg bg-white border border-gray-300 max-w-500 mt-3 hover:border-gray-800">Read Docs</button>
+                    
+
+                 </div>
+            </div>
+            <!-- companies-title -->
+             <div id="companies-container">
+                 <div id="companies-title" class="flex justify-center gap-2">
+                <i class="fa-solid fa-arrow-down mt-10"></i>
+                <span class="mt-5 font-medium">APPS POWERED BY ToDesktop</span>
+                 <i class="fa-solid fa-arrow-down mt-10"></i>
+             </div>
+             </div>
+
+    <!-- step by step -->
+     <div id="steps" class="flex flex-col gap-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32 mb-30">
+        <h2 class="text-5xl font-bold sm:font-semibold mb-14">How it Works</h2> 
+        <div id="step1" class="rounded-xl border px-8 py-12 flex flex-col lg:flex-row">
+            <div class="flex flex-col gap-6 lg:w-1/2">
+                <span class="border border-yellow-300 bg-yellow-50 text-yellow-800 px-3 py-1 rounded-lg font-bold w-fit">Step 1</span>
+                <h3 class="text-4xl">Bootstrap straight from Your web apps</h3>
+                <p class="text-lg">Copy and paste your web url into ToDesktop.customise your app design, app icon and window frame UI with no code</p>
+                <ul class="grid grid-cols-2 gap-2">
+                    <li class="flex gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pt-12">
+                <img class="m-12"src="c:\Users\lenovo\Downloads\download (3).jfif" alt="">
+            </div>
+        </div>
+        <div id="step2" class="rounded-xl border px-8 py-12 flex flex-col lg:flex-row">
+            <div class="flex flex-col gap-6 lg:w-1/2">
+                <span class="border border-yellow-300 bg-yellow-50 text-yellow-800 px-3 py-1 rounded-lg font-bold w-fit">Step 2</span>
+                <h3 class="text-4xl">Bootstrap straight from Your web apps</h3>
+                <p class="text-lg">Copy and paste your web url into ToDesktop.customise your app design, app icon and window frame UI with no code</p>
+                <ul class="grid grid-cols-2 gap-2">
+                    <li class="flex gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pt-12">
+                <img class="m-12"src="c:\Users\lenovo\Downloads\download (3).jfif" alt="">
+            </div>
+        </div>
+        <div id="step3" class="rounded-xl border px-8 py-12 flex flex-col lg:flex-row">
+            <div class="flex flex-col gap-6 lg:w-1/2">
+                <span class="border border-yellow-300 bg-yellow-50 text-yellow-800 px-3 py-1 rounded-lg font-bold w-fit">Step 3</span>
+                <h3 class="text-4xl">Bootstrap straight from Your web apps</h3>
+                <p class="text-lg">Copy and paste your web url into ToDesktop.customise your app design, app icon and window frame UI with no code</p>
+                <ul class="grid grid-cols-2 gap-2">
+                    <li class="flex gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <a class="text-lg font-light border-b border-black border-opacity-30 hover:border-opacity-800" href="">Multiple windows</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pt-12">
+                <img class="m-12"src="c:\Users\lenovo\Downloads\download (3).jfif" alt="">
+            </div>
+        </div>
+     </div>
+
+     <!-- Bento Grid -->
+      <div id="bento-grid" class="py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32 ">
+        <h2 class="text-5xl font-bold sm:font-semibold mb-14">To Desktop handles the details</h2>
+        <div id="grid-container" class="flex flex-col gap-6 lg:grid lg:grid-cols-3 " style="grid-auto-rows: 96px;">
+
+            <div class="row-start-1 row-end-3 group rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="bg-white group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center">
+                    <h3 class="text-2xl font-medium">Native Notifications</h3>
+                    
+                    <img src="c:\Users\lenovo\Downloads\download (4).jfif" class="w-[120px]" alt="">
+                </div>
+            </div>
+            <div class="row-start-1 row-end-4 group rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="bg-white group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center">
+                    <h3 class="text-2xl font-medium">Native Notifications</h3>
+                     <p class="text-lg text-center font-light">We'll enscure the underlying browser is up to date and deliver 
+                        performance improvement, security patches, & additional features</p>
+                   
+                    <img src="c:\Users\lenovo\Downloads\download (4).jfif"class="w-[120px]" alt="">
+                </div>
+            </div>
+            <div class="row-start-1 row-end-3 group rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="bg-white group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center">
+                    <h3 class="text-2xl font-medium">Native Notifications</h3>
+                     
+                    <img src="c:\Users\lenovo\Downloads\download (4).jfif" class="w-[120px]" alt="">
+                </div>
+            </div>
+            <div class="row-start-3 row-end-6 group rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="bg-white group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center">
+                    <h3 class="text-2xl font-medium">Native Notifications</h3>
+                     <p class="text-lg text-center font-light">We'll enscure the underlying browser is up to date and deliver 
+                        performance improvement, security patches, & additional features</p>
+                   
+                    <img src="c:\Users\lenovo\Downloads\download (4).jfif"class="w-[120px]" alt="">
+                </div>  
+            </div>
+            <div class=" row-start-4 row-end-6 group rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="bg-white group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center">
+                    <h3 class="text-2xl font-medium">Native Notifications</h3>
+                   
+                    <img src="c:\Users\lenovo\Downloads\download (4).jfif"class="w-[120px]" alt="">
+                </div>
+            </div>
+            <div class="row-start-3 row-end-6 group rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="bg-white group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center">
+                    <h3 class="text-2xl font-medium">Native Notifications</h3>
+                     <p class="text-lg text-center font-light">We'll enscure the underlying browser is up to date and deliver 
+                        performance improvement, security patches, & additional features</p>
+                   
+                    <img src="c:\Users\lenovo\Downloads\download (4).jfif"class="w-[120px]" alt="">
+                
+                        
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- companies-features-line -->
+      <div id="features-line" class="container">
+        <div class="border rounded-lg overflow-hidden flex justify-center p-4">
+            <div id="line-4" class="flex gap-8 p-6">
+                <h3 class="whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+                <span>•</span>
+                <h3 class=" whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+                <span>•</span>
+                <h3 class=" whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+                <span>•</span>
+                <h3 class=" whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+                <span>•</span>
+                <h3 class=" whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+                <span>•</span>
+            </div>  
+        
+        </div>
+
+      </div>
+
+
+      <!-- Teatimonial -->
+      <div id="testimonial" class="container mt-20">
+        <h2 class="text-5xl sm:font-semibold mb-14">Customers Story</h2>
+           
+        <div class="flex flex-col lg:flex-row justify-between gap-4 mt-10">
+            <div class="flex flex-col rounded-2xl p-6 gap-6 p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
+                       <i class="fa-solid fa-code text-indigo-800"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Native APIS</h3>
+                </div>
+
+                <p class="font-light text-lg">What sets ToDesktop aparts is its seamless integration with native API using
+                     our existing web codebase. By tapping into API like tray and notification, 
+                     we're crafted an polished desktop user experience..
+                </p>
+                <div class="flex gap-4">
+                     <div class="flex">
+                    <div class="-mr-3 w-12 h-12 flex justify-center items-center rounded-full overflow-hidden border border-white">
+                        <img src="c:\Users\lenovo\Downloads\394bc50bc7a4b8f9251f5ad9d28d84aa.jpg_720x720q80.jpg"alt="">
+                    </div>
+                    <div class="w-12 h-12 flex justify-center items-center rounded-full overflow-hidden  border border-white">
+                        <img src="c:\Users\lenovo\Downloads\gettyimages-1770279962-612x612.jpg" class="min-w-16 min-h-16"alt="">
+                    </div>
+                    </div>
+                    <div class="flex flex-col">
+                         <h3>Rick Pastor</h3>
+                         <a href="#" class="border-b border-dotted border-y-gray-300 hover:border-solid  hover:border-gray-500 w-fit text-gray-500">Rise</a>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="flex flex-col rounded-2xl p-6 gap-6 p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
+                       <i class="fa-solid fa-code text-indigo-800"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Native APIS</h3>
+                </div>
+
+                <p class="font-light text-lg">What sets ToDesktop aparts is its seamless integration with native API using
+                     our existing web codebase. By tapping into API like tray and notification, 
+                     we're crafted an polished desktop user experience..
+                </p>
+                <div class="flex gap-4">
+                     <div class="flex">
+                    <div class="-mr-3 w-12 h-12 flex justify-center items-center rounded-full overflow-hidden border border-white">
+                        <img src="c:\Users\lenovo\Downloads\394bc50bc7a4b8f9251f5ad9d28d84aa.jpg_720x720q80.jpg"alt="">
+                    </div>
+                    <div class="w-12 h-12 flex justify-center items-center rounded-full overflow-hidden  border border-white">
+                        <img src="c:\Users\lenovo\Downloads\gettyimages-1770279962-612x612.jpg" class="min-w-16 min-h-16"alt="">
+                    </div>
+                    </div>
+                    <div class="flex flex-col">
+                         <h3>Rick Pastor</h3>
+                         <a href="#" class="border-b border-dotted border-y-gray-300 hover:border-solid  hover:border-gray-500 w-fit text-gray-500">Rise</a>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="flex flex-col rounded-2xl p-6 gap-6 p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-blue-200 flex items-center justify-center rounded-full">
+                       <i class="fa-solid fa-code text-indigo-800"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Native APIS</h3>
+                </div>
+
+                <p class="font-light text-lg">What sets ToDesktop aparts is its seamless integration with native API using
+                     our existing web codebase. By tapping into API like tray and notification, 
+                     we're crafted an polished desktop user experience..
+                </p>
+                <div class="flex gap-4">
+                     <div class="flex">
+                    <div class="-mr-3 w-12 h-12 flex justify-center items-center rounded-full overflow-hidden border border-white">
+                        <img src="c:\Users\lenovo\Downloads\394bc50bc7a4b8f9251f5ad9d28d84aa.jpg_720x720q80.jpg"alt="">
+                    </div>
+                    <div class="w-12 h-12 flex justify-center items-center rounded-full overflow-hidden  border border-white">
+                        <img src="c:\Users\lenovo\Downloads\gettyimages-1770279962-612x612.jpg" class="min-w-16 min-h-16"alt="">
+                    </div>
+                    </div>
+                    <div class="flex flex-col">
+                         <h3>Rick Pastor</h3>
+                         <a href="#" class="border-b border-dotted border-y-gray-300 hover:border-solid  hover:border-gray-500 w-fit text-gray-500">Rise</a>
+                    </div>
+                </div>
+
+                
+               
+            </div>
+
+            
+        </div>
+
+         <div class="rounded-xl  flex flex-col bg-black lg:flex-row mt-20 lg:pt-10">
+            <div class="flex flex-col gap-4 p-8 lg:flex-1 lg:gap-8">
+              <span class="text-gray-400 font-semibold">READY TO START BUILDING</span>
+                <h3 class="font-semibold text-4xl lg:text-6xl text-white leading-tight mb-4">Click Up used to ToDesktop to get their
+                     ..</h3>
+                  
+
+                     <p class="text-lg  font-light text-gray-400 lg:text-xl">ToDesktop provided us with a <span class="text-gray-800">polished desktop app</span>
+                        in no time.their expert team guided u through a smooth
+                        migration from our outdated legacy desktop app, enabling us to deliver <span class="text-gray-800">new and improvement features </span>n to our customers within days..
+                     </p>
+                     <button class="bg-blue-700 text-white py-3 rounded-lg hover:bg-opacity-90 flex justify-center items-center gap-4">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Download ToDesktop Builder</span>
+                     </button>
+                     <p class="text-gray-400 text-xs italic leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odio?</p>
+                </div>
+                
+            <div class="lg:w-1/2">
+                <img src="c:\Users\lenovo\Downloads\images (5).jfif" class="w-[1000px] h-[500px] pl-12" alt="">
+            </div>
+        </div>
+      </div>
+
+      <!-- pricing -->
+       <div id="pricing" class="container mt-[110px] p-10">
+        <h2 class="text-5xl leading-normal sm:fa-semibold max-w-xl">Choose a plan that fits your needs</h2>
+        <div class="flex flex-col lg:flex-row mt-6 gap-6">
+            <div class="border rounded-xl px-8 pt-12 pb-8 flex flex-col gap-6 lg:border-none lg:bg-slate-50">
+                <h3 class="text-4xl">Free</h3>
+                <p class="text- font-light">For personal use or testing your app before deploying to customers..</p>
+                <p class="uppercase">KEY FEATURES</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+            
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                      <i class="fa-solid fa-xmark text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                
+                        <i class="fa-solid fa-xmark text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                </ul>
+                <button class="border px-8 py-3 text-blue-800 rounded-lg hover:border-gray-800 font-medium">
+                    Read Docs
+                </button>
+            </div>
+            <div class="border rounded-xl px-8 pt-12 pb-8 flex flex-col gap-6 lg:border-none lg:bg-slate-50">
+                <h3 class="text-4xl">Free</h3>
+                <p class="text- font-light">For personal use or testing your app before deploying to customers..</p>
+                <p class="uppercase">KEY FEATURES</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+            
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                      <i class="fa-solid fa-xmark text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                
+                        <i class="fa-solid fa-xmark text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                </ul>
+                <button class="border px-8 py-3 text-blue-800 rounded-lg hover:border-gray-800 font-medium">
+                    Read Docs
+                </button>
+            </div>
+            
+            <div class="border relative rounded-xl px-8 pt-12 pb-8 flex flex-col gap-6 lg:border-none lg:bg-slate-50 items-center">
+                <p class="text-blue-800 text-sm bg-indigo-100 border rounded-full w-fit px-4 py-2 font-semibold absolute top-0 right-8 -translate-y-1/2">Most Popular</p>
+                <h3 class="text-4xl">Free</h3>
+                <p class="text- font-light">For personal use or testing your app before deploying to customers..</p>
+                <p class="uppercase">KEY FEATURES</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-4">
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+            
+                        <i class="fa-solid fa-check text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                      <i class="fa-solid fa-xmark text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                    <li class="flex items-center gap-4">
+                
+                        <i class="fa-solid fa-xmark text-gray-500"></i>
+                        <span class="text-lg font-light text-gray-800">Free for personal use</span>
+                    </li>
+                </ul>
+                <button class="border px-8 py-3 text-blue-800 rounded-lg hover:border-gray-800 font-medium bg-blue-700 text-white hover:bg-opacity-90">
+                    Read Docs
+                </button>
+            </div>
+        </div>
+       </div>
+
+       <!-- FAQS -->
+        <!-- <div id="faq" class="mt[120] p-5">
+            <h2 class="font-semibold text-5xl">FAQS</h2>
+            <div class="grid grid-cols-1 lh:grid-cols-2 mt-6">
+                <div class="group rounded-xl border border-gray-200 bg-gray-50 p-6 mt-4">
+                    <dt class="flex justify-between items-center">
+                        <p class="font-semibold text-lg">Is ToDesktop For Me? </p>
+                        <i class="fa-solid fa-chevron-up -rotate-180"></i>
+                    </dt>
+                    <dd class="hidden text-lg font-light mt-5">
+                        <p>That depends! if you would like to distribute 
+                            your web app to your usesrs as a download
+                             desktop app then ToDesktop is for you</p>
+                    </dd>
+                </div>
+            </div>
+        </div>
+             </div> -->
+                
+           
+
+         </div>
+        
+         <div class="h-[1000px]"></div>
+     </main>
+
 </body>
+<script>
+    function setupIntersectionObserver(element, isLTR, speed){
+    const intersectionCallback = (entries) => {
+        const isIntersecting = entries[0].isIntersecting
+        console.log(element, isIntersecting)
+            
+    }
+    const intersectionObserver = new IntersectionObserver(intersectionCallback)
+    intersectionObserver.observe(element)
+}
+
+const line1 = document.getElementById("line1")
+const line2 = document.getElementById("line2")
+const line3 = document.getElementById("line3")
+
+setupIntersectionObserver(line1, true, 0.15)
+setupIntersectionObserver(line2, false, 0.15)
+setupIntersectionObserver(line3, true, 0.15)
+</script>
 </html>
