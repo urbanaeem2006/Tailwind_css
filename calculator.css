@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.bg-red{
+    background: red;
+}
+.mx-auto{
+    margin: auto;
+}
+.button{
+    width: 66px ;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+
+    
+}
+.flex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.row{
+    margin: 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row input{
+    
+    width: 291px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 23px;
+}
