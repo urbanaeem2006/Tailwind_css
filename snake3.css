@@ -25,10 +25,13 @@
 }
 .snake{
     background-color: purple;
+    border: .25min solid white;
+    border-radius: 12px;
 }
 .food{
-    background-color: yellow;
-
+    background: linear-gradient(red, yellow);
+    border: .25min bolid white;
+    border-radius: 8px
 }
 
 
