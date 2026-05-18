@@ -26,8 +26,8 @@ const checkWin = ()=>{
             document.querySelector(".info").innerText = boxtexts[e[0]].innerText + " Won"          
          isgameover = true;
          document.querySelector(".line").style.width = "20vw" ;  
-         document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw)  rotate(${e[5]}deg)`;
-
+            document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw)  rotate(${e[5]}deg)`;
+        
         }
     });
 }
@@ -48,6 +48,8 @@ Array.from(boxes).forEach(element =>{
     })
 })
 
+
+
 // Add onclick listener to reset button 
 reset.addEventListener("click", ()=>{
     let boxtext = document.querySelectorAll(".boxtext");
@@ -57,5 +59,7 @@ reset.addEventListener("click", ()=>{
     turn = "X"
      isgameover = false
     document.getElementsByClassName("info")[0].innerText = "Turn For " + turn;
+
         
 })
+turn
