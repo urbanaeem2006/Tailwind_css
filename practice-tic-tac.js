@@ -3,6 +3,8 @@ let gameover = false
 
 // Function to change the turn
 
+
+
  const changeTurn = ()=>{
 
     // is called a ternary operator in javascript
@@ -61,6 +63,7 @@ reset.addEventListener("click", ()=>{
     })
     turn = "X"
       isgameover = false
-     document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
+       document.querySelector(".line").style.width = "0";
+       document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
     
 })

@@ -77,9 +77,10 @@ nav ul{
     width: 0;
     position: absolute;
     transform: translate(5vw, 15vw) rotate(90deg);
-    transition: all 1s ease-in-out;
+    transition: width 1s ease-in-out;
     background-color: rgb(218, 186, 218);
 }
+
 
 @media screen and (max-width: 800px)
 {
