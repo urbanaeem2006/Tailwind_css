@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 56px;
+}
+
+.logo {
+    padding: 0px 23px;
+}
+.content{
+    font-family: "potta One", cursive;
+    /* font-size: larger; */
+}
+
+.container{
+    /* background-color: red; */
+    width: 60vw;
+    margin: auto;
+    padding: 32px 0;
+    font-family: "Roboto", sans-serif;
+}
+.logo img{
+    width: 80px;
+}
+.content{
+    font-size: larger;
+    font-weight: 700;
+}
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 2px solid white !important;
+    padding: 5px 14px !important;
+}
