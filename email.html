@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./email.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./img/email-18-svgrepo-com.svg" alt="">
+                </div>
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <div class="container">
+            <h1>Enter Your Email to validate</h1>
+            <form action="/submit" method="post">
+
+                <!-- text input for username -->
+
+                 <label for="username">username:</label>
+                 <input type="text" id="username" name="username">
+                 <br><br>
+
+                 <!-- passowrd input -->
+
+                  <label for="passowrd">Password:</label>
+                  <input type="password" name="passowrd" id="passowrd">
+                  <br><br>
+
+                  <!-- radio buttons for gender -->
+                   <label>Gender:</label>
+                   <input type="radio" id="male" name="gender" value="male">
+                   <label for="male">Male</label>
+                   <input type="radio" id="female" name="gender" value="female">
+                   <label for="female">female</label>
+                   <br><br>
+
+                   <!-- submit button -->
+                    submit
+                    <input  class="btn"type="submit" value="submit">
+            </form>
+        </div>
+        <div class="container">
+            <h2> Your Results</h2>
+        </div>
+    </main>
+    <footer>
+        Copyrights iValidate.com | All Rights reserved
+    </footer>
+</body>
+<script src="./email.js"></script>
+</html>
