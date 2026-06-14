@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(211, 202, 202);
+    width: 434px;
+    height: 100vh;
+        margin-right: 20px;
+
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+ 
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(239, 242, 142); */
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     font-family: "source Code Pro", monospace;
+     
+}
+.hello{
+    font-size: 65px;
+   
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+        font-family: "Fira Sans", sans-serif;
+        padding: 20px;
+
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img{
+    
+    /* width: 380px; */
+     height: 58vh;
+    
+
+}
+
+
+    
