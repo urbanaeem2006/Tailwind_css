@@ -1,0 +1,10 @@
+.btn{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    justify-content: center;
+}

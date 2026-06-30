@@ -7,7 +7,7 @@ btn.addEventListener("click", function(){
     return response.json()
 })
 .then(function(data){
-    dogImage.src = data.message;
+    dogImage.src = data.message;    
     console.log(data)
 })
 
