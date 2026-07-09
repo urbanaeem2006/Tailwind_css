@@ -30,3 +30,7 @@ body{
     color: white;
     cursor: pointer;
 }
+.data{
+    margin: 10px;
+    padding: 4px;
+}
